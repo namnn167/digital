@@ -1,0 +1,56 @@
+/* Tablet */
+@media only screen and (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+
+  /* Nav */
+  .main-bar {
+    display: none;
+  }
+  .link {
+    font-size: 15px;
+  }
+
+  /* Info */
+  .section-title,
+  .info,
+  #target p,
+  .info-icon {
+    margin-left: 20px;
+  }
+
+  /* Exp */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Certificate */
+
+  #certificate .item {
+    flex-direction: column;
+  }
+
+  .name-certificate {
+    margin-top: 10px;
+  }
+
+  /* Project */
+  .small-project {
+    grid-template-rows: 160px 80px 100px repeat(3, auto);
+    font-size: smaller;
+  }
+
+  .small-project img {
+    width: 100%;
+  }
+
+  #project .infomation {
+    align-content: flex-start;
+  }
+
+  .item h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

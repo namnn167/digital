@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
+h5 {
+  margin-top: 5px;
+}
+* > p {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.timeline {
+  height: 100%;
+}
+
+/* Timeline */
+.timeline-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.timeline-list div {
+  border-bottom: 3px dotted blueviolet;
+  margin-right: 5px;
+}
+.timeline-list-1::before {
+  content: "01";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #a09a9a;
+  padding-top: 3px;
+}
+
+.timeline-list-2::before {
+  content: "02";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #a09a9a;
+  padding-top: 3px;
+}
+
+.timeline-list-3::before {
+  content: "03";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #a09a9a;
+  padding-top: 3px;
+}
+.timeline-list-4::before {
+  content: "04";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #a09a9a;
+  padding-top: 3px;
+}
+.timeline-list-5::before {
+  content: "05";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #a09a9a;
+  padding-top: 3px;
+}
+/* Mobie and tablet */
+@media screen and (max-width: 992px) {
+  .icon {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .timeline-list {
+    display: block;
+    margin-top: 10px;
+  }
+}
+/* Laptop */
+@media screen and (min-width: 992px) {
+  .main {
+    height: 695px;
+  }
+  .scopes {
+    height: 300px;
+  }
+  .team {
+    height: 340px;
+  }
+  .primary {
+    height: 300px;
+  }
+  .timeline {
+    height: 590px;
+  }
+}
